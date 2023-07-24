@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_body_text_texts",
+  "info": {
+    "displayName": "Text",
+    "icon": "strikeThrough",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
