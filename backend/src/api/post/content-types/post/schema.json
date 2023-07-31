@@ -56,6 +56,24 @@
       "relation": "manyToOne",
       "target": "api::autor.autor",
       "inversedBy": "posts"
+    },
+    "City": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Mariupol",
+        "Volnovakha",
+        "Kalmiuske",
+        "Donetsk",
+        "Pokrovsk",
+        "Horlivka",
+        "Bakhmut",
+        "Kramatorsk"
+      ]
     }
   }
 }
